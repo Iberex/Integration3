@@ -1,10 +1,162 @@
-.hidden {
-  display: none;
+:root {
+  --accent-blue: #4546FF;
+  --accent-orange: #FF5206;
+  --white: #F4F4F4;
+  --black: #0F0F0F;
 }
 
-.puzzle {
+@font-face {
+  font-family: 'Anton';
+  src: url('/Fonts/Anton-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Kisser';
+  src: url('/Fonts/Kisser.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Book';
+  src: url('/Fonts/ppneuemontreal-book.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'SemiBoldItalic';
+  src: url('/Fonts/ppneuemontreal-semibolditalic.otf') format('opentype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Thin';
+  src: url('/Fonts/ppneuemontreal-thin.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: 'Book', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: var(--white);
+  color: var(--black);
+}
+
+.navbar {
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1.25rem;
+  box-sizing: border-box;
+  height: 3.5rem;
+}
+
+.navbar-logo {
+  height: 2.5rem;
+  width: auto;
+  max-width: 8.75rem;
+}
+
+.navbar-menu {
+  font-family: 'Thin', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 100;
+  font-size: 1.25rem;
+  background: none;
+  border: none;
+  color: var(--black);
+  cursor: pointer;
+  margin-left: auto;
+  padding: 0 0.5rem;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.hero-center {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 3rem;
+  min-height: 11rem;
+}
+.hero-bikkembergs {
+  font-family: 'Anton', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  color: var(--black);
+  font-size: 3.8rem;
+  text-align: center;
+  text-transform: uppercase;
+  position: absolute;
+  top: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  pointer-events: none;
+  z-index: 2;
+}
+.hero-dirk {
+  font-family: 'Kisser', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  color: var(--accent-blue);
+  font-size: 9.5rem;
+  text-align: center;
+  line-height: 1;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+.hero-image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+  width: 100%;
+  position: relative;
+}
+.hero-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90vw;
+  height: auto;
+}
+.vertical-scroll-section {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
   height: 100%;
-  max-width: 100%;
-  max-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+}
+.vertical-scroll-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 900px;
+  gap: 0.9rem;
+  pointer-events: none;
+}
+.vertical-scroll-text {
+  font-family: 'Anton', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  color: rgba(15, 15, 15, 0.10);
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  writing-mode: vertical-rl;
+  white-space: nowrap;
+  letter-spacing: 0.05em;
+  pointer-events: none;
+  overflow: hidden;
+  height: 100%;
 }
