@@ -681,7 +681,7 @@ body {
   background: var(--black);
   color: var(--white);
   font-family: 'Anton', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  font-size: 7rem;
+  font-size: 4rem;
   text-transform: uppercase;
   letter-spacing: 0.04em;
   text-align: center;
@@ -742,6 +742,8 @@ body {
   align-items: center;
   margin-top: 4rem;
   border-bottom: 0.5rem solid var(--white);
+  width: 100%;
+  align-self: center;
 }
 .field-svg {
   width: 60vw;
@@ -749,6 +751,519 @@ body {
   height: auto;
   display: block;
 }
+
+.Secondtime{
+  margin-top: 20rem;
+}
+
+.Sansiro-section{
+  margin-left: 2rem;
+  margin-top: 10rem;
+  margin-bottom: 2rem;
+}
+
+.Sansiro-section .kop-sub{
+  margin-top: 0.5rem;
+  color: var(--black);
+}
+
+.sansiro-text {
+  font-family: 'Book', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 1rem;
+  color: var(--black);
+  line-height: 1.7;
+  margin-top: 4rem;
+  max-width: 22rem;
+}
+
+.sansiro-text:not(.sansiro-extra-text)::first-letter {
+  font-family: 'bold', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 600;
+  font-size: 5.5rem;
+  color: var(--accent-blue);
+  line-height: 1;
+  float: left;
+  margin-right: 0.3rem;
+  margin-top: -0.6rem;
+}
+
+.sansiro-images {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 7rem;
+  gap: 0.5rem;
+}
+
+.sansiro-image-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.sansiro-colorme {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  font-family: 'Kisser', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.7rem;
+  color: var(--accent-orange);
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  background: rgba(244,244,244,0.0);
+  z-index: 11;
+  pointer-events: none;
+  user-select: none;
+  white-space: nowrap;
+}
+
+.sansiro-extra-text {
+  margin-top: 4rem;
+}
+
+.sansiro-stadium-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 7rem;
+  margin-bottom: 2rem;
+}
+
+.sansiro-stadium {
+  height: auto;
+  display: block;
+}
+
+.SportID-section {
+  margin-top: 15rem;
+  margin-bottom: 2rem;
+}
+
+.sportID-titel{
+  margin-left: 2rem;
+}
+
+.SportID-section .kop-sub {
+  margin-top: 0.5rem;
+  color: var(--black);
+}
+
+.sportid-text {
+  font-family: 'Book', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 1rem;
+  color: var(--black);
+  line-height: 1.7;
+  margin-top: 4rem;
+  max-width: 22rem;
+  margin-left: 2rem;
+}
+
+.sportid-text:not(.sportid-extra-text)::first-letter {
+  font-family: 'bold', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 600;
+  font-size: 5.5rem;
+  color: var(--accent-blue);
+  line-height: 1;
+  float: left;
+  margin-right: 0.3rem;
+  margin-top: -0.6rem;
+}
+
+.sportid-image-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.sportid-face {
+  width: 100%;
+  max-width: 35rem;
+  height: auto;
+  display: block;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+.sportid-image-right {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.sportid-image-left {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.sportid-leg {
+  max-width: 55rem;
+  width: 70vw;
+  height: auto;
+  display: block;
+}
+
+.sportid-image-right .sportid-leg {
+  margin-right: 0;
+}
+
+.sportid-image-left .sportid-leg {
+  margin-left: 0;
+}
+
+.sportid-extra-text {
+  margin-top: 4rem;
+}
+
+.LaatsteMinuten-section {
+  margin-top: 15rem;
+  margin-bottom: 5rem;
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.laatsteminuten-titel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+
+.LaatsteMinuten-section .kop-sub {
+  margin-top: 0.5rem;
+  color: var(--black);
+  text-align: left;
+}
+
+.laatsteminuten-text {
+  font-family: 'Book', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 1rem;
+  color: var(--black);
+  line-height: 1.7;
+  margin-top: 4rem;
+  max-width: 30rem;
+  text-align: left;
+}
+
+.laatsteminuten-text:not(.laatsteminuten-extra-text)::first-letter {
+  font-family: 'bold', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 600;
+  font-size: 5.5rem;
+  color: var(--accent-blue);
+  line-height: 1;
+  float: left;
+  margin-right: 0.3rem;
+  margin-top: -0.6rem;
+}
+
+.laatsteminuten-extra-text {
+  margin-top: 4rem;
+}
+
+.recentie {
+  position: relative;
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 30rem;
+}
+
+.recentie-image {
+  width: 50%;
+  height: auto;
+  display: block;
+}
+
+.recentie-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.recentie-bikkembergs {
+  position: absolute;
+  top: -2rem;
+  font-family: 'Anton', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 3rem;
+  color: var(--black);
+  text-transform: uppercase;
+}
+
+.recentie-quote {
+  font-family: 'Book', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 1rem;
+  color: var(--accent-blue);
+  line-height: 1.7;
+  margin-top: 2rem;
+  max-width: 30rem;
+  text-align: left;
+}
+
+.ExtraTime-section {
+  background: var(--black);
+  width: 100%;
+  max-width: 100%;
+  margin: 10rem 0 0 0;
+  padding: 3rem 0 5rem 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow-x: hidden;
+  padding-bottom: 20rem;
+  padding-top: 4rem;
+}
+
+.ExtraTime-titel {
+  margin-left: 2rem;
+  margin-top: -3rem;
+}
+
+.extratime-text {
+  font-family: 'Book', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 1rem;
+  color: var(--white);
+  line-height: 1.7;
+  max-width: 30rem;
+  margin: 0 2rem;
+  text-align: left;
+  margin-top: 2rem;
+}
+
+.extratime-text::first-letter {
+  font-family: 'Bold', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 600;
+  font-size: 5.5rem;
+  color: var(--white);
+  line-height: 1;
+  float: left;
+  margin-right: 0.3rem;
+  margin-top: -0.5rem;
+}
+
+.image-carousel {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-top: 5rem;
+  width: 100%;
+  position: relative;
+}
+
+.carousel-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.carousel-left {
+  transform: translateX(-30%);
+}
+
+.carousel-right {
+  transform: translateX(30%);
+}
+
+.carousel-image {
+  width: 15rem;
+  height: auto;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.carousel-caption {
+  font-family: 'Thin', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 0.9rem;
+  color: var(--white);
+  text-align: center;
+  max-width: 15rem;
+  letter-spacing: 0.05em;
+}
+
+.carousel-center .carousel-caption {
+  font-family: 'Book', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+.Momu-section {
+  width: 100%;
+  max-width: 100%;
+  margin: 10rem 0 5rem 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--white);
+}
+
+.momu-titel {
+  width: 100%;
+  max-width: 30rem;
+  text-align: left;
+  margin-bottom: 3rem;
+}
+
+.momu-text {
+  font-family: 'Book', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 1rem;
+  color: var(--black);
+  line-height: 1.7;
+  text-align: left;
+  max-width: 30rem;
+  width: 100%;
+  margin: 0;
+}
+
+.momu-text:not(.momu-extra-text)::first-letter {
+  font-family: 'bold', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 600;
+  font-size: 5.5rem;
+  color: var(--accent-blue);
+  line-height: 1;
+  float: left;
+  margin-right: 0.3rem;
+  margin-top: -0.6rem;
+}
+
+.momu-extra-text {
+  margin-top: 2rem;
+}
+
+.momu-image-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.momu-image {
+  width: 100%;
+  max-width: 18rem;
+  height: auto;
+  display: block;
+}
+
+.footer {
+  width: 100%;
+  background: var(--accent-blue);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2rem 1.5rem 0 1.5rem;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+
+.footer-branding {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.footer-bikkembergs-small {
+  font-family: 'Kisser', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 2rem;
+  color: var(--accent-orange);
+  text-transform: uppercase;
+  margin-bottom: 0;
+  z-index: 3;
+  position: relative;
+  left: 0;
+}
+
+.footer-dirk-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  margin-top: -1rem;
+  margin-left: -0.5rem;
+}
+
+.footer-bikkembergs-overlay {
+  display: none;
+}
+
+.footer-dirk {
+  font-family: 'Anton', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 14rem;
+  color: var(--white);
+  text-transform: uppercase;
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+  letter-spacing: -0.02em;
+  z-index: 1;
+  line-height: 0.75;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  margin: 4rem 0 4rem 1.5rem;
+  width: 100%;
+}
+
+.footer-nav-link {
+  font-family: 'Book', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.1rem;
+  color: var(--white);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-nav-link:hover {
+  color: var(--accent-orange);
+}
+
+.footer-present {
+  width: 100%;
+  background: var(--white);
+  text-align: center;
+  padding: 1.2rem 0;
+  margin: 0 -1.5rem;
+  width: calc(100% + 3rem);
+}
+
+.footer-present-text {
+  font-family: 'Book', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 1rem;
+  color: var(--black);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.footer-present-momu {
+  font-family: 'SemiBoldItalic', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 1rem;
+  color: var(--accent-orange);
+  font-style: italic;
+  letter-spacing: 0.05em;
+}
+
 @keyframes rotate-infinite {
   0% {
     transform: rotate(0deg);
